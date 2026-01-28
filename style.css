@@ -3,13 +3,13 @@
 @font-face{
 	font-family: "LinaJurkovic";
 	src:
-		url("./font/LinaJurkovic.ttf") format("truetype");
+		url("LinaJurkovic.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 	} 
 body {
-	 background-image: url("slike/Bg.jpg");
+	 background-image: url("Bg.jpg");
     background-size: cover;     
     background-repeat: no-repeat;
     background-position: center;
