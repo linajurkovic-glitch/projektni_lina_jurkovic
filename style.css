@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: "LinaJurkovic";
+	src:
+		url("./font/LinaJurkovic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	} 
+body {
+	 background-image: url("slike/Bg.jpg");
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+	background-color:  #9D193E;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #553927;
+	margin-left: 40px;
+	margin-right: 40px;
+} 	
+p {
+	font-size:  18px;
+	background-color: #FFB4CF;
+} 	
+h1 {
+	font-family: "LinaJurkovic", Ariel, sans-serif;
+	font-size:  40px;
+	color: #FF90A9;
+	text-align: center;
+	padding: 30px;
+} 	
+h2 {
+	font-size:  30px;
+	color: #FF61A1;
+} 	
+a {
+	color: #553927;
+}
+
+a:hover{
+	color: #D7579C;
+	}
+a:active{
+	color: #553927;
+	}
+a:visited{
+	color: #FF90A9;
+	}
